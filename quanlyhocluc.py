@@ -157,9 +157,10 @@ def xoa_thong_tin(ds):
           print("Không hợp lệ")
         
         
-danhsach = [{"maso": "MS0001", "ten": "Huỳnh Thanh Phương", "dcs": 10.0, "dcn": 10.0, "dck": 10.0 * 0.4 + 10.0 * 0.6},
-            {"maso": "MS0002", "ten": "Trần Ngọc Hiếu", "dcs": 10.0, "dcn": 10.0, "dck": 10.0 * 0.4 + 10.0 * 0.6},
-            {"maso": "MS0003", "ten": "Trần Tiến Đạt", "dcs": 10.0, "dcn": 10.0, "dck": 10.0 * 0.4 + 10.0 * 0.6}]
+danhsach = [{"maso": "MS0001", "ten": "Nguyen Van A", "dcs": 10.0, "dcn": 10.0, "dck": 10.0 * 0.4 + 10.0 * 0.6},
+            {"maso": "MS0002", "ten": "Nguyen Van B", "dcs": 10.0, "dcn": 1.0, "dck": 10.0 * 0.4 + 1.0 * 0.6},
+            {"maso": "MS0003", "ten": "Nguyen Van C", "dcs": 3.0, "dcn": 3.0, "dck": 3.0 * 0.4 + 3.0 * 0.6},
+            {"maso": "MS0004", "ten": "Nguyen Van D", "dcs": 10.0, "dcn": 10.0, "dck": 10.0 * 0.4 + 10.0 * 0.6}]
 
 while True:
     print(" Menu ".center(40, "="))
@@ -188,4 +189,5 @@ while True:
         print("\nĐóng chương trình")
         break
     else:
+
         print("Hãy nhập lại\n")
